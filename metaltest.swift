@@ -1,6 +1,6 @@
 import Metal
 
-var supportedDevices: [MTLDevice] = MTLCopyAllDevices()
+let supportedDevices: [MTLDevice] = MTLCopyAllDevices()
 
 if (supportedDevices.count > 0)
 {
